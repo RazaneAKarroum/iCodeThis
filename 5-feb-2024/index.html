@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/e84b759868.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="bg-[#e2d9f7] flex justify-center items-center min-h-screen">
+    <div class="container1 bg-white text-[#241a4d] p-8 space-y-4 shadow-lg rounded-xl max-w-xl">
+        <h4 class="bold">Payment</h4>
+        <form>
+            <label>
+                <input type="radio" name="radio" class="radioInput"/>
+                <h5>Card</h5>
+            </label>
+                <p>Pay with a card</p>
+                <div class="cardForm">
+                    <div class="cardNbrDiv">
+                        <div>
+                            <i class="fa-regular fa-credit-card"></i>
+                            <span>Card number</span>
+                        </div>
+                    </div>
+                    <div class="cardInfoDiv">
+                        <div class="cardDateDiv">
+                            <i class="fa-regular fa-credit-card"></i>
+                            <span>mm/dd</span>
+                        </div>
+                        <div class="cardPassDiv">
+                            <i class="fa-solid fa-lock"></i>
+                            <span>cvc</span>
+                        </div>
+                    </div>
+                </div>
+                <label>
+                    <input type="checkbox" name="checkbox" class="checkboxInput"/>
+                    <span class="remember">Remember my card.</span>
+                </label>
+                
+            <label>
+                <input type="radio" name="radio" class="radioInput" checked/>
+                <h5>Get first. Pay later</h5>
+            </label>
+            <p>Pay within 30 days</p>
+            <button class="btn">Continue</button>
+            
+        </form>
+       
+        
+    </div>
+</body>
+
+</html>
